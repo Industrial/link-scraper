@@ -3,7 +3,7 @@
   
   # We use the latest supported and cached version
   # from github:input-output-hk/haskell.nix
-  compiler-nix-name = "ghc961";
+  compiler-nix-name = "ghc945";
 
   # Enable for cross-platform build
   # crossPlatforms = p: pkgs.lib.optionals pkgs.stdenv.hostPlatform.isx86_64 ([
@@ -16,5 +16,5 @@
   # Tools to include in the development shell
   shell.tools.cabal = "latest";
   # shell.tools.hlint = "latest";
-  # shell.tools.haskell-language-server = "latest";
+  shell.tools.haskell-language-server = "latest";
 }

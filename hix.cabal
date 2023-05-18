@@ -10,4 +10,8 @@ executable hix
   hs-source-dirs: src
   main-is: Main.hs
   build-depends:
-    base >= 4.18.0.0
+    base >= 4.17.1.0,
+    text >= 2.0.2,
+    Cabal >= 3.8.1.0,
+    scalpel >= 0.6.2.1,
+    scalpel-core >= 0.6.2.1
