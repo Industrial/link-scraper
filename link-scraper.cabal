@@ -1,0 +1,13 @@
+cabal-version: 3.6
+name: link-scraper
+version: 0.1.0.0
+
+executable link-scraper
+  hs-source-dirs: src
+  main-is: Main.hs
+  build-depends:
+    base,
+    text,
+    Cabal,
+    scalpel,
+    scalpel-core
