@@ -6,8 +6,14 @@ executable link-scraper
   hs-source-dirs: src
   main-is: Main.hs
   build-depends:
-    base,
-    text,
     Cabal,
+    base,
+    network-uri,
     scalpel,
-    scalpel-core
+    scalpel-core,
+    template-haskell,
+    text,
+
+    -- Debugger in VSCode
+    ghci-dap,
+    haskell-debug-adapter
