@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-nix build .#hix:exe:hix
+nix build
